@@ -1,254 +1,49 @@
 <!DOCTYPE html>
-.center
-  input#level-one(type="checkbox")
-  .level(l="1")
-    .step.start(r="0" c="0")
-    .step(r="0" c="1")
-    .step(r="1" c="1")
-    .step(r="2" c="1")
-    .step(r="3" c="1")
-    .step(r="3" c="2")
-    .step(r="3" c="3")
-    .step(r="2" c="3")
-    .step(r="2" c="4")
-    .step(r="3" c="4")
-    .step.finish(r="4" c="4")
-      label.goal(for="level-one")
-  input#level-two(type="checkbox")
-  .level
-    .step.start(r="4" c="4")
-    .step(r="4" c="3")
-    .step(r="4" c="2")
-    .step(r="3" c="2")
-    .step(r="3" c="1")
-    .step(r="3" c="0")
-    .step(r="4" c="0")
-    .step(r="4" c="1")
-    .step(r="3" c="1")
-    .step(r="3" c="2")
-    .step(r="3" c="3")
-    .step(r="4" c="3")
-    .step(r="4" c="2")
-    .step(r="3" c="2")
-    .step(r="3" c="1")
-    .step(r="4" c="1")
-    .step(r="4" c="0")
-    .step(r="3" c="0")
-    .step(r="2" c="0")
-    .step(r="1" c="0")
-    .step.finish(r="1" c="1")
-      label.goal(for="level-two")
-  input#level-three(type="checkbox")
-  .level
-    .step.start(r="1" c="1")
-    .step(r="1" c="2")
-    .step(r="1" c="3")
-    .path
-      .step(r="1" c="4")
-      .step(r="0" c="4")
-      .step(r="0" c="3")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="3" c="3")
-      .step(r="4" c="3")
-      .step(r="4" c="4")
-    .step(r="2" c="3")
-    .step(r="3" c="3")
-    .step(r="3" c="2")
-    .step(r="3" c="1")
-    .step(r="3" c="0")
-    .step(r="2" c="0")
-    .step(r="1" c="0")
-    .step.finish(r="0" c="0")
-      label.goal(for="level-three")
-  input#level-four(type="checkbox")
-  .level
-    .step.start(r="0" c="0")
-    .path
-      .step(r="0" c="1")
-      .step(r="0" c="2")
-      .path
-        .step(r="1" c="2")
-        .step(r="2" c="2")
-        .step(r="3" c="2")
-        .path
-          .step(r="3" c="3")
-          .step(r="2" c="3")
-          .step(r="1" c="3")
-          .step(r="1" c="4")
-          .step(r="2" c="4")
-        .step(r="3" c="1")
-        .step(r="3" c="0")
-        .step(r="2" c="0")
-        .step(r="2" c="1")
-        .step(r="2" c="2")
-        .step(r="1" c="2")
-        .step(r="1" c="3")
-        .step(r="0" c="3")
-        .step(r="0" c="4")
-        .step(r="1" c="4")
-        .step(r="2" c="4")
-        .step(r="3" c="4")
-      .step(r="0" c="3")
-      .step(r="0" c="4")
-      .step(r="1" c="4")
-      .path
-        .step(r="1" c="3")
-        .step(r="2" c="3")
-        .step(r="2" c="2")
-        .step(r="2" c="1")
-        .step(r="2" c="0")
-        .step(r="1" c="0")        
-      .step(r="2" c="4")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="2" c="1")
-      .step(r="2" c="0")
-      .step(r="3" c="0")
-      .step(r="4" c="0")
-      .step(r="4" c="1")
-      .step(r="4" c="2")
-      .step(r="3" c="2")
-    .step(r="1" c="0")
-    .path
-      .step(r="1" c="1")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-      .step(r="1" c="3")
-      .step(r="2" c="3")
-      .step(r="2" c="2")
-      .step(r="1" c="2")
-    .step(r="2" c="0")
-    .step(r="3" c="0")
-    .step(r="4" c="0")
-    .step(r="4" c="1")
-    .step(r="4" c="2")
-    .step(r="3" c="2")
-    .step(r="2" c="2")
-    .path
-      .step(r="2" c="1")
-      .step(r="2" c="0")
-      .step(r="3" c="0")
-      .step(r="4" c="0")
-      .step(r="4" c="1")
-      .step(r="4" c="2")
-    .step(r="1" c="2")
-    .step(r="0" c="2")
-    .step(r="0" c="3")
-    .step(r="1" c="3")
-    .step(r="1" c="4")
-    .step(r="0" c="4")
-    .step(r="0" c="3")
-    .step(r="1" c="3")
-    .step(r="2" c="3")
-    .step(r="2" c="2")
-    .step(r="3" c="2")
-    .step.finish(r="4" c="4")
-      label.goal(for="level-four")
-  input#level-five(type="checkbox")
-  .level
-    .step.start(r="4" c="4")
-    .step(r="3" c="4")
-    .step(r="2" c="4")
-      label.button(for="bridge-one")
-    .bridge
-      input#bridge-one(type="checkbox")
-      .step(r="1" c="4")
-      .step(r="0" c="4")
-      .step(r="0" c="3")
-      .path
-        .step(r="1" c="3")
-        .step(r="1" c="4")
-        .step(r="2" c="4")
-        .step(r="3" c="4")
-        .step(r="3" c="3")
-        .step(r="4" c="3")
-        .step(r="4" c="2")
-        .step(r="4" c="1")
-        .path
-          .step(r="3" c="1")
-          .step(r="3" c="0")
-          .step(r="2" c="0")
-          .step(r="1" c="0")
-          .step(r="0" c="0")
-          .step(r="0" c="1")
-          .path
-            .step(r="0" c="2")
-            .bridge
-              input#bridge-two(type="checkbox")
-              .step(r="0" c="3")
-              .step(r="0" c="4")
-              .step(r="1" c="4")
-              .step(r="2" c="4")
-              .step(r="2" c="3")
-          .step(r="1" c="1")
-          .step(r="1" c="0")
-            label.button(for="bridge-three")
-              
-        .step(r="4" c="0")
-        .step(r="3" c="0")
-        .step(r="3" c="1")
-        .step(r="4" c="1")
-        .step(r="4" c="2")
-        .step(r="4" c="3")
-          label.button(for="bridge-four")
-      .step(r="0" c="2")
-      .step(r="0" c="1")
-      .step(r="1" c="1")
-      .step(r="1" c="0")
-      .bridge
-        input#bridge-four(type="checkbox")
-        .step(r="2" c="0")
-        .step(r="3" c="0")
-        .path
-          .step(r="4" c="0")
-          .step(r="4" c="1")
-          .step(r="4" c="2")
-        .step(r="3" c="1")
-        .step(r="4" c="1")
-        .step(r="4" c="0")
-        .bridge
-          input#bridge-three(type="checkbox")
-          .step(r="3" c="0")
-          .step(r="2" c="0")
-          .step(r="1" c="0")
-          .step(r="0" c="0")
-            label.button(for="bridge-two")    
-            
-    .step.finish(r="2" c="2")
-      label.goal(for="level-five")
-  input#finsh(type="checkbox")
-  .level
-    .message
-      h1 YOU WIN!
-      p Thanks for playing!  I'm pretty impressed you had the patience to make it all the way!
-      a.share(href='https://twitter.com/intent/tweet?text=I%20made%20it%20to%20the%20end%20of%20this%20pure%20CSS%20game%2C%20I%20bet%20you%20can%27t! &url=http%3A%2F%2Fcodepen.io%2Fnathantaylor%2Fpen%2FKaLvXw&via=nathantokyo' target="_blank") Brag on Twitter!
-      
-    
-    
-    
-  
+<html lang="en">
 
+<head>
+  <link rel="stylesheet" href="assets/css/main.processed.css">
+  <link rel="stylesheet" href="assets/css/animations.processed.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
 
+<body><canvas id="stars"></canvas>
+  <div class="container">
+    <div class="wall">
+      <div class="lights"></div>
+    </div>
+    <div class="wall">
+      <div class="machine">
+        <div class="panel">
+          <p>Origin</p><input type="range" min="100" max="1820" value="960" id="slider">
+          <div class="set">Set</div>
+        </div>
+        <div class="panel">
+          <p>Perspective</p><input type="range" min="100" max="3000" value="500" id="slider2">
+          <div class="set">Set</div>
+        </div>
+      </div>
+    </div>
+    <div class="wall">
+      <div class="frame">
+        <div class="pic"></div>
+        <div class="pic"></div>
+        <div class="pic"></div>
+        <div class="pic"></div><canvas id="whiteboard"></canvas>
+        <div class="pen"></div>
+        <div class="social"><a href="https://codepen.io/vinnywoo" target="_Blank"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/455279/whitecp.png"></a><a href="https://www.linkedin.com/in/vincent-danna-378924b0" target="_Blank"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/455279/lin.png"></a></div>
+      </div>
+    </div>
+    <div class="wall">
+      <div class="button">
+        <div class="switch"></div>
+      </div>
+    </div>
+    <div class="door"></div>
+  </div>
+</body>
+<script src="assets/scripts/main.js"></script>
+<script src="assets/scripts/starfield.js"></script>
+<script src="assets/scripts/whiteboard.js"></script>
 
-a(href="http://nathan.tokyo" target="_blank").sig NATHAN.TOKYO
 </html>
